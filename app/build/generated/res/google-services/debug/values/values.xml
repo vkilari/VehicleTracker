@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">100576431501-e3p0enssu1iuufscn5id5r7jp0pq6o64.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://gpstracking-179912.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">100576431501</string>
+    <string name="google_api_key" translatable="false">AIzaSyAleQbgYtTpBl6yAdsbCZWu6cLFhQn5Fu4</string>
+    <string name="google_app_id" translatable="false">1:100576431501:android:b5599a8062cdeaf2</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAleQbgYtTpBl6yAdsbCZWu6cLFhQn5Fu4</string>
+    <string name="google_storage_bucket" translatable="false">gpstracking-179912.appspot.com</string>
+</resources>

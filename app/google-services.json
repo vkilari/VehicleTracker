@@ -1,0 +1,143 @@
+{
+  "project_info": {
+    "project_number": "100576431501",
+    "firebase_url": "https://gpstracking-179912.firebaseio.com",
+    "project_id": "gpstracking-179912",
+    "storage_bucket": "gpstracking-179912.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:100576431501:android:b5599a8062cdeaf2",
+        "android_client_info": {
+          "package_name": "com.google.transporttracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "100576431501-1nqj3ooon9313dq0b19n21pcujk6te7q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.google.transporttracker",
+            "certificate_hash": "0b475f22a2d543708a5505b3b568bb10514bf793"
+          }
+        },
+        {
+          "client_id": "100576431501-e3p0enssu1iuufscn5id5r7jp0pq6o64.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAleQbgYtTpBl6yAdsbCZWu6cLFhQn5Fu4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "100576431501-e3p0enssu1iuufscn5id5r7jp0pq6o64.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:100576431501:android:458dfe5e3358fd0b",
+        "android_client_info": {
+          "package_name": "gpstracking.mobisolutions.com.gpstracking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "100576431501-2p96lcisi83q3id4g25ej92kcsudf240.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "gpstracking.mobisolutions.com.gpstracking",
+            "certificate_hash": "0b475f22a2d543708a5505b3b568bb10514bf793"
+          }
+        },
+        {
+          "client_id": "100576431501-e3p0enssu1iuufscn5id5r7jp0pq6o64.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAleQbgYtTpBl6yAdsbCZWu6cLFhQn5Fu4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "100576431501-e3p0enssu1iuufscn5id5r7jp0pq6o64.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:100576431501:android:b1c7194c699bfa25",
+        "android_client_info": {
+          "package_name": "org.traccar.client"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "100576431501-tndq2gt5er2n30doa33706b4prrolfg6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.traccar.client",
+            "certificate_hash": "545cca08c9ec05a63b8d3d0cdcd7c386c540e735"
+          }
+        },
+        {
+          "client_id": "100576431501-e3p0enssu1iuufscn5id5r7jp0pq6o64.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAleQbgYtTpBl6yAdsbCZWu6cLFhQn5Fu4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "100576431501-e3p0enssu1iuufscn5id5r7jp0pq6o64.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

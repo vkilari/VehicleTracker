@@ -1,0 +1,64 @@
+[
+    {
+        "outputFile": "/Volumes/Data/Venkat/Android/Developer-Studio/VehicleTracking/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 53,
+                    "endOffset": 104
+                },
+                "from": {
+                    "file": "/Volumes/Data/Venkat/Android/Developer-Studio/VehicleTracking/app/build/generated/res/resValues/androidTest/debug/values/generated.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 155,
+                        "endColumn": 61,
+                        "endOffset": 212
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 109,
+                    "endColumn": 56,
+                    "endOffset": 161
+                },
+                "from": {
+                    "file": "/Volumes/Data/Venkat/Android/Developer-Studio/VehicleTracking/app/build/generated/res/resValues/androidTest/debug/values/generated.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 217,
+                        "endColumn": 64,
+                        "endOffset": 277
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 166,
+                    "endColumn": 60,
+                    "endOffset": 222
+                },
+                "from": {
+                    "file": "/Volumes/Data/Venkat/Android/Developer-Studio/VehicleTracking/app/build/generated/res/resValues/androidTest/debug/values/generated.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 282,
+                        "endColumn": 68,
+                        "endOffset": 346
+                    }
+                }
+            }
+        ]
+    }
+]
