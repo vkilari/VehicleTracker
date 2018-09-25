@@ -56,7 +56,7 @@ public class TrackerActivity extends AppCompatActivity {
 
     private SharedPreferences mPrefs;
 
-    private Button mStartButton;
+    private Button mStartButton, display_map;
     private EditText mTransportIdEditText;
     private EditText mEmailEditText;
     private EditText mPasswordEditText;
@@ -73,9 +73,17 @@ public class TrackerActivity extends AppCompatActivity {
         setContentView(R.layout.content_main);
 
         mStartButton = (Button) findViewById(R.id.button_start);
+        display_map = (Button) findViewById(R.id.display_map);
         mStartButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 checkInputFields();
+            }
+        });
+
+        display_map.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent i = new Intent(TrackerActivity.this, MapsActivity.class);
+                startActivity(i);
             }
         });
 
@@ -164,13 +172,19 @@ public class TrackerActivity extends AppCompatActivity {
         } else {
             // Store values.
             SharedPreferences.Editor editor = mPrefs.edit();
+//            editor.putString(getString(R.string.transport_id), mTransportIdEditText.getText().toString());
+//            editor.putString(getString(R.string.email), mEmailEditText.getText().toString());
+//            editor.putString(getString(R.string.password), mPasswordEditText.getText().toString());
+
             editor.putString(getString(R.string.transport_id), mTransportIdEditText.getText().toString());
-            editor.putString(getString(R.string.email), mEmailEditText.getText().toString());
-            editor.putString(getString(R.string.password), mPasswordEditText.getText().toString());
+            editor.putString(getString(R.string.email), "test@in.com");
+            editor.putString(getString(R.string.password), "test123");
+
             editor.apply();
             // Validate permissions.
             checkLocationPermission();
             mSwitch.setEnabled(true);
+
         }
     }
 

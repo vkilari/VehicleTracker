@@ -23,6 +23,58 @@
           }
         },
         {
+          "client_id": "100576431501-v3crshc47s7rtv3kf02q42b3uamtihm5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.google.transporttracker",
+            "certificate_hash": "545cca08c9ec05a63b8d3d0cdcd7c386c540e735"
+          }
+        },
+        {
+          "client_id": "100576431501-e3p0enssu1iuufscn5id5r7jp0pq6o64.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAleQbgYtTpBl6yAdsbCZWu6cLFhQn5Fu4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "100576431501-e3p0enssu1iuufscn5id5r7jp0pq6o64.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:100576431501:android:384f2bccc5b2c805",
+        "android_client_info": {
+          "package_name": "com.google.transporttracker.client"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "100576431501-9h32fedad3ui034qvjgfgldrcngl1aou.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.google.transporttracker.client",
+            "certificate_hash": "0b475f22a2d543708a5505b3b568bb10514bf793"
+          }
+        },
+        {
           "client_id": "100576431501-e3p0enssu1iuufscn5id5r7jp0pq6o64.apps.googleusercontent.com",
           "client_type": 3
         }

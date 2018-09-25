@@ -131,8 +131,9 @@ public class TrackerService extends Service implements LocationListener {
     }
 
     private void authenticate(String email, String password) {
+        Log.d(TAG, "authenticate:::::"+email+":::::"+password);
         final FirebaseAuth mAuth = FirebaseAuth.getInstance();
-        mAuth.signInWithEmailAndPassword(email, password)
+        mAuth.signInWithEmailAndPassword("test@in.com", "test123")
                 .addOnCompleteListener(new OnCompleteListener<AuthResult>(){
                     @Override
                     public void onComplete(Task<AuthResult> task) {
@@ -141,6 +142,7 @@ public class TrackerService extends Service implements LocationListener {
                             fetchRemoteConfig();
                             loadPreviousStatuses();
                         } else {
+                            Log.e(TAG, "onComplete: Failed=" + task.getException().getMessage());
                             Toast.makeText(TrackerService.this, R.string.auth_failed,
                                     Toast.LENGTH_SHORT).show();
                             stopSelf();
